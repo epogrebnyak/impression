@@ -2,13 +2,15 @@
 name = "ssg"
 version = "0.1.0"
 description = ""
-authors = ["Evgeniy <e.pogrebnyak@gmail.com>"]
+authors = ["Evgeniy Pogrebnyak <e.pogrebnyak@gmail.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+Sphinx = "^3.4.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
