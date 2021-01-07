@@ -1,4 +1,4 @@
-package := "ssg"
+package := "{{cookiecutter.package_name}}"
 
 # launch streamlit app
 st:
@@ -11,7 +11,7 @@ lint:
 
 # create rst source for API documentation
 apidoc:
-  sphinx-apidoc -o docs src/{{package}}
+  sphinx-apidoc -o docs src/{{ "{{package}}" }}
 
 # build and show documentation in browser
 docs:
