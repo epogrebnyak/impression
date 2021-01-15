@@ -1,4 +1,4 @@
-> Note: this is an early version of the template, structure and workflow are to be improved yet.
+> Note: this is an early version of the template, structure and workflow are to be improved.
 
 # Minimal cookiecutter for Poetry, Sphinx and Streamlit 
 
