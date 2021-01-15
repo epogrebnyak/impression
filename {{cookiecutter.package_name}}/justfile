@@ -1,4 +1,5 @@
 package := "{{cookiecutter.package_name}}"
+alias app := st
 
 # launch streamlit app
 st:
