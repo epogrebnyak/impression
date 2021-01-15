@@ -76,4 +76,4 @@ I test the created package manually, maybe there can be a clever script for that
 ## Alternatives and inspiration
 
 - https://github.com/cjolowicz/cookiecutter-hypermodern-python
-
+- https://github.com/TezRomacH/python-package-template
