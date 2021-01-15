@@ -18,7 +18,7 @@ Run at prompt and answer several questions about your new package:
 cookiecutter https://github.com/epogrebnyak/impression
 ```
 
-The way you may anwser questions is sililar to this:
+The way you may anwser questions is similar to this:
 
 ```console
 λ cookiecutter https://github.com/epogrebnyak/impression
