@@ -46,6 +46,16 @@ for customisation.
 - [streamlit](https://docs.streamlit.io/en/stable/) for quick dashboards
 - [MIT license](LISENCE)
 
+
+## How I test the package
+
+I do it manually:
+
+- `poetry run pytest`: ok
+- `just docs`: fails
+- `just show`: ok
+- `just app`: ok
+
 ## Ideas
 
 - badges (streamlit, test results)
