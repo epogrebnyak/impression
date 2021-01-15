@@ -19,9 +19,7 @@ package. It should be up and running with:
    streamlit streamlit_app.py
 ```
 
-Below are some simple examples to get used to [Streamlit][st].
-
-You can also look into more elaborate examples by typing in the command line:
+You can also look into more elaborate examples with:
 
 ```
    streamlit hello
@@ -31,6 +29,14 @@ You can also look into more elaborate examples by typing in the command line:
 """
 
 st.header("Small examples")
+
+"""
+Below are some simple examples to get used to [Streamlit][st].
+
+All you do is adding `st.something(x)` to your code 
+that will display `x` in the application.
+"""
+
 
 st.subheader("Input and display a number, show code")
 
