@@ -54,7 +54,7 @@ I test the created package manually, maybe there can be a clever script for that
  Command            |  Status
 :------------------:|:-------:
 `poetry run pytest` | ok
-`just docs`         | [needs ```poetry install```](https://github.com/epogrebnyak/impression/issues/2)
+`just docs`         | needs [```poetry install```](https://github.com/epogrebnyak/impression/issues/2)
 `just show`         | ok
 `just app`          | ok
 
