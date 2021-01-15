@@ -1,16 +1,38 @@
-# poetry-minimal-template
+> Note: this is an early version of the template, structure and workflow are to be improved.
 
-Minimal setup to work with Poetry, Sphinx and Streamlit out of the box.
- 
-Run and answer several questions about your new package at prompt:
+# Minimal cookiecutter for Poetry, Sphinx and Streamlit 
+
+This is a minimal setup to work with Poetry, Sphinx and Streamlit out of the box.
+
+## How to run
+
+Install cookiecutter if you do not have it yet:
+
+```
+pip install cookiecutter
+```
+
+Run at prompt and answer several questions about your new package:
 
 ```
 cookiecutter https://github.com/epogrebnyak/impression
 ```
 
-The project will be created at `pkg` folder or under the folder you specified at prompt. 
+The way you may anwser questions is similar to this:
 
-If you do not have cookiecutter installed run ```pip install cookiecutter``` to enable it. 
+```console
+λ cookiecutter https://github.com/epogrebnyak/impression
+package_name [pkg]: foo
+author_name [Evgeniy Pogrebnyak]: Gino Forchione
+author_email [e.pogrebnyak@gmail.com]: keep.it.a@secret.com
+```
+
+The project from example above will be created at `foo` folder. 
+
+## Customisation
+
+Please refer to [Cookiecutter documentation](https://cookiecutter.readthedocs.io)
+for customisation.
 
 ## Features
 
@@ -28,14 +50,18 @@ If you do not have cookiecutter installed run ```pip install cookiecutter``` to 
 
 - badges (streamlit, test results)
 - Read the docs compatibility 
+- git init
+- command line wrapper
 
+<!--
 ## Not yet
 
  - precommit hooks
  - nox
  - coverage
+!--> 
  
 ## Alternatives and inspiration
 
 - https://github.com/cjolowicz/cookiecutter-hypermodern-python
-- https://cookiecutter.readthedocs.io/
+
