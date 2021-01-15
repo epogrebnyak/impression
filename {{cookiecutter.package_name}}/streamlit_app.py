@@ -1,83 +1,31 @@
-import numpy as np
-import pandas as pd
 import streamlit as st
 
-import weo
-
 st.set_page_config(
-    page_title="WEO Reader",
+    page_title="{{ cookiecutter.package_name }}",
     page_icon=None,
     layout="centered",
     initial_sidebar_state="collapsed",
 )
 
 
-st.title("Let's look at WEO dataset")
+st.title("Let's look at {{ cookiecutter.package_name }}")
 
-
-"""Picture here"""
-
-st.header("Reference")
-st.header("Load the data")
-
-"""
-```python
-import weo
-w = weo.get(2020, "October")
-```
-"""
-
-
-@st.cache
-def source():
-    return weo.get(2020, 2)
-
-
-st.header("What is inside?")
-st.subheader("Variable names")
-
-w = source()
-with st.echo():
-    for c in w.core_codes:
-        st.write(c, (w.from_code(c)))
-
-"""Note: more variable codes come through `w.codes`."""
-
-st.subheader("Countries")
-
-with st.echo():
-    st.write(w.countries("United"))
-
-
-st.subheader("Years")
-with st.echo():
-    st.write(w.years)
-
-"""
-1. Install: 
-```
-$ pip install streamlit
-```
-
-After installation ```streamlit``` will be available as a command line tool and as a package.
-
-2. Make `my_app.py`:
-
-```python
-import streamlit as st
-st.write("Hello, world!")
-```
-
-3. Run:
+"""You have created a [Streamlit][st] app for the {{ cookiecutter.package_name }}
+package. It should be up and running with:
 
 ```
-$ streamlit run my_app.py
+   streamlit streamlit_app.py
 ```
 
-4. Point your broswer to http://localhost:8501. The page will refresh as you edit and save `my_app.py`.
+Below are some simple examples to get used to [Streamlit][st].
 
+You can also look into more elaborate examples by typing in the command line:
 
-5. Learn more with [tutorials](https://docs.streamlit.io/en/stable/getting_started.html).
+```
+   streamlit hello
+```
+
+[st]: https://www.streamlit.io/
 """
 
 st.header("Small examples")
