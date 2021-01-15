@@ -1,6 +1,16 @@
 # poetry-minimal-template
 
- Minimal setup to work with Poetry, Sphinx and Streamlit out of the box.
+Minimal setup to work with Poetry, Sphinx and Streamlit out of the box.
+ 
+Run and answer several questions about your new package at prompt:
+
+```
+cookiecutter https://github.com/epogrebnyak/impression
+```
+
+The project will be created at `pkg` folder or under the folder you specified at prompt. 
+
+If you do not have cookiecutter installed run ```pip install cookiecutter``` to enable it. 
 
 ## Features
 
@@ -28,3 +38,4 @@
 ## Alternatives and inspiration
 
 - https://github.com/cjolowicz/cookiecutter-hypermodern-python
+- https://cookiecutter.readthedocs.io/
