@@ -1,1 +1,2 @@
-cookiecutter
+# This is a requirements file for streamlit app
+# The {{cookiecutter.package_name}} package own dependencies are in pyproject.toml
