@@ -29,6 +29,8 @@ author_email [e.pogrebnyak@gmail.com]: keep.it.a@secret.com
 
 3. The project from example above will be created at `foo` folder. 
 
+## Customisation
+
 Please refer to [Cookiecutter documentation](https://cookiecutter.readthedocs.io)
 for customisation.
 
@@ -51,13 +53,15 @@ for customisation.
 - git init
 - command line wrapper
 
+<!--
 ## Not yet
 
  - precommit hooks
  - nox
  - coverage
+--!> 
  
 ## Alternatives and inspiration
 
 - https://github.com/cjolowicz/cookiecutter-hypermodern-python
-- https://cookiecutter.readthedocs.io/
+
