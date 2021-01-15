@@ -49,14 +49,16 @@ for customisation.
 
 ## How I test the package
 
-I do it manually:
+I test the created package manually, maybe there can be a clever script for that.
 
-- `poetry run pytest`: ok
-- `just docs`: fails
-- `just show`: ok
-- `just app`: ok
+ Command            |  Status
+:------------------:|:-------:
+`poetry run pytest` | ok
+`just docs`         | [fails](https://github.com/epogrebnyak/impression/issues/2)
+`just show`         | ok
+`just app`          | ok
 
-## Ideas
+## Ideas for other features
 
 - badges (streamlit, test results)
 - Read the docs compatibility 
