@@ -59,7 +59,7 @@ for customisation.
  - precommit hooks
  - nox
  - coverage
---!> 
+!--> 
  
 ## Alternatives and inspiration
 
