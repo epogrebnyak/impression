@@ -4,13 +4,15 @@
 
 This is a minimal setup to work with Poetry, Sphinx and Streamlit out of the box.
 
-Install cookiecutter if you do not have it yet:
+## How to run
+
+1. Install cookiecutter if you do not have it yet:
 
 ```
 pip install cookiecutter
 ```
 
-Run at prompt and answer several questions about your new package:
+2. Run at prompt and answer several questions about your new package:
 
 ```
 cookiecutter https://github.com/epogrebnyak/impression
@@ -25,7 +27,7 @@ author_name [Evgeniy Pogrebnyak]: Gino Forchione
 author_email [e.pogrebnyak@gmail.com]: keep.it.a@secret.com
 ```
 
-The project from example above will be created at `foo` folder. 
+3. The project from example above will be created at `foo` folder. 
 
 Please refer to [Cookiecutter documentation](https://cookiecutter.readthedocs.io)
 for customisation.
