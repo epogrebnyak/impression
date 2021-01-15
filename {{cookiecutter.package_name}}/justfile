@@ -1,9 +1,8 @@
 package := "{{cookiecutter.package_name}}"
-alias app := st
 
 # launch streamlit app
-st:
-  streamlit run streamlit_app.py
+app:
+  poetry run streamlit run streamlit_app.py
 
 # black and isort
 lint:  
