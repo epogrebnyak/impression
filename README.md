@@ -9,16 +9,17 @@
  - [Sphinx](https://www.sphinx-doc.org/en/master/) documentation with:
    - markdown support via powerful [myst-parser](https://myst-parser.readthedocs.io/en/latest/)
    - beautiful [PyData theme](https://pydata-sphinx-theme.readthedocs.io/en/latest/)
-   - publishing documentation to Github Pages
+   - publishing to Github Pages
 - justfile for [just](https://github.com/casey/just) command runner
 - [streamlit](https://docs.streamlit.io/en/stable/) for quick dashboards
-- MIT license
+- [MIT license](LISENCE)
 
 ## Ideas
 
 - badges (streamlit, test results)
+- Read the docs compatibility 
 
-## Not here, not now
+## Not yet
 
  - precommit hooks
  - nox
