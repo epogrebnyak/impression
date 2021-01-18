@@ -29,6 +29,12 @@ author_email [e.pogrebnyak@gmail.com]: keep.it.a@secret.com
 
 The project from example above will be created at `foo` folder. 
 
+Shorthand for github URL is `gh`. Command below does the same thing as above:
+
+```
+cookiecutter gh:epogrebnyak/impression
+```
+
 ## Customisation
 
 Please refer to [Cookiecutter documentation](https://cookiecutter.readthedocs.io)
