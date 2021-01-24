@@ -18,6 +18,12 @@ Run at prompt and answer several questions about your new package:
 cookiecutter https://github.com/epogrebnyak/impression
 ```
 
+or, equivalently:
+
+```
+cookiecutter gh:epogrebnyak/impression
+```
+
 The way you may anwser questions is similar to this:
 
 ```console
@@ -27,13 +33,7 @@ author_name [Evgeniy Pogrebnyak]: Gino Forchione
 author_email [e.pogrebnyak@gmail.com]: keep.it.a@secret.com
 ```
 
-The project from example above will be created at `foo` folder. 
-
-Shorthand for github URL is `gh`. Command below does the same thing as above:
-
-```
-cookiecutter gh:epogrebnyak/impression
-```
+The project from example answers above will be created at `foo` folder. 
 
 ## Customisation
 
@@ -53,7 +53,7 @@ for customisation.
 - [MIT license](LISENCE)
 
 
-## How I test the package
+## How I test the created package
 
 I test the created package manually, maybe there can be a clever script for that.
 
@@ -68,7 +68,7 @@ I test the created package manually, maybe there can be a clever script for that
 
 - badges (streamlit, test results)
 - Read the docs compatibility 
-- git init
+- git init and set origin in the script
 - command line wrapper
 
 <!--
@@ -77,10 +77,21 @@ I test the created package manually, maybe there can be a clever script for that
  - precommit hooks
  - nox
  - coverage
+ 
 !--> 
  
 ## Alternatives and inspiration
 
+Modern packaging:
+
 - https://github.com/cjolowicz/cookiecutter-hypermodern-python
 - https://github.com/TezRomacH/python-package-template
+
+Data pipleine coockiecutter
+
+- https://github.com/drivendata/cookiecutter-data-science
+
+
+Streamlit forum:
+
 - https://discuss.streamlit.io/
