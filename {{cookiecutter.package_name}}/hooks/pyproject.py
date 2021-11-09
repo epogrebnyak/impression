@@ -20,7 +20,7 @@ def extract_author(s: str) -> Tuple[str, str]:
 
 
 def get_toml(path=PATH):
-    return toml.load("path)["tool"]["poetry"]
+    return toml.load(path)["tool"]["poetry"]
 
 
 d = get_toml()
